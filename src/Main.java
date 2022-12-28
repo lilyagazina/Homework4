@@ -104,7 +104,7 @@ public class Main {
             } else if (three > one) {
                 System.out.println("Число " + three + " самое большее");
             }else {
-                System.out.println("Все числа равны");
+                System.out.println("Все 3 числа равны");
             }
     }
 
