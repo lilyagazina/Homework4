@@ -1,23 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        task5();
         task6();
         task7();
     }
 
-
-    public static void task5() {
-        System.out.println("Задача 5");
-        int age = 9;
-        if (age <= 5 ) {
-            System.out.println("Если возраст ребенка равен " + age + ", то ему нельзя кататься на аттракционе");
-        } else if ( age >= 5 && age <= 14 ) {
-            System.out.println("Если возраст ребенка равен " + age + ", то ему можно кататься на аттракционе в сопровождении");
-        } else {
-            System.out.println("Если возраст ребенка равен " + age + ", то ему можно кататься на аттракционе без сопровождения взрослого");
-        }
-
-    }
     public static void task6() {
         System.out.println("Задача 6");
         int totalPlacesInTrainCar = 102;
