@@ -37,31 +37,3 @@ public class Main {
         }
 
     }
-    public static void task7() {
-        System.out.println("Задача 7");
-        int one = 125;
-        int two = 125;
-        int three = 195;
-        if (one > two ) {
-            if (one >= three) {
-                System.out.println("Число " + one + " самое большее");
-            } else {
-                System.out.println("Число " + three + " самое большее");
-            }
-        } else if (two  > one  ) {
-            if (two  >= three) {
-                System.out.println("Число " + two  + " самое большее");
-            } else {
-                System.out.println("Число " + three + " самое большее");
-            }
-        } else if (one > three) {
-                System.out.println("Число " + one + " самое большее");
-            } else if (three > one) {
-                System.out.println("Число " + three + " самое большее");
-            }else {
-                System.out.println("Все 3 числа равны");
-            }
-    }
-
-}
-
