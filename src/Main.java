@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Задача 3");
         int speed = 90;
         if ( speed > 60 ) {
-            System.out.println("Если скорость " +speed+ ", то придется заплатить штраф");
+            System.out.println(speed);
         } else {
             System.out.println("Если скорость " +speed+ ", то можно ездить спокойно");
         }
@@ -66,7 +66,7 @@ public class Main {
         System.out.println("Задача 7");
         int one = 125;
         int two = 125;
-        int three = 125;
+        int three = 195;
         if (one > two ) {
             if (one >= three) {
                 System.out.println("Число " + one + " самое большее");
