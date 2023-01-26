@@ -1,39 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        task3();
-        task4();
         task5();
         task6();
         task7();
     }
 
-    public static void task3() {
-        System.out.println("Задача 3");
-        int speed = 90;
-        if ( speed > 60 ) {
-            System.out.println(speed);
-        } else {
-            System.out.println("Если скорость " +speed+ ", то можно ездить спокойно");
-        }
 
-    }
-    public static void task4() {
-        System.out.println("Задача 4");
-        int age = 18;
-        if ( age >= 2 && age <= 6) {
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в детский сад");
-        } else if ( age >= 7 && age <= 18) {
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в школу");
-        } else if ( age > 18 && age <= 24) {
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет");
-        } else if ( age > 24 ){
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить на работу");
-        }
-
-    }
     public static void task5() {
         System.out.println("Задача 5");
-        int age = 3;
+        int age = 9;
         if (age <= 5 ) {
             System.out.println("Если возраст ребенка равен " + age + ", то ему нельзя кататься на аттракционе");
         } else if ( age >= 5 && age <= 14 ) {
